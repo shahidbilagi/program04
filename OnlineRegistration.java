@@ -1,4 +1,3 @@
-package program4;
 class Course {
     String name;
     int marks;
@@ -42,7 +41,6 @@ class Student {
 public class OnlineRegistration {
     public static void main(String[] args) {
         Student s = new Student();
-        s.displayInfo();
         s.displayLowMarks();
     }
 }
